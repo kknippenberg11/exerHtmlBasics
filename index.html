@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Cheat Sheet</title>
+	</head>
+	<body>
+
+		<a href="blog.html">Go to Blog</a>
+		<hr>
+		<!--This is where headings are going to go -->
+		<h1>Heading One</h1>
+		<h2>Heading Two<h2>
+		<h3>Heading Three</h3>
+		<h4>Heading Four</h4>
+		<h5>Heading Five</h5>
+		<h6>Heading Six</h6>
+
+		<!-- Here are some paragraphs -->
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor <strong>incididunt ut labore</strong> et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud <em>exercitation ullamco</em> laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<!-- We're going to put a link TO ANOTHER SITE in, and this syntax opens the link in a new tab! -->
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="http://google.com" target="_blank">sed do eiusmod</a>
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<!-- now lists, ordered (ol) and unordered (ul) -->
+		<ul>
+			<li>List item 1</li>
+			<li>List item 2</li>
+			<li>List item 3</li>
+			<li>List item 4</li>
+		</ul>
+		<ol>
+			<li>List item 1</li>
+			<li>List item 2</li>
+			<li>List item 3</li>
+			<li>List item 4</li>
+		</ol>
+
+		<!-- Tables next. -->
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>		
+			</thead>
+			<tbody>
+				<tr>
+					<td>Kristin Knippenberg</td>
+					<td>kknippenberg@gmail.com</td>
+					<td>50</td>
+				</tr>
+				<tr>			
+					<td>Derick Varn</td>
+					<td>dionysuseatsyou@gmail.com</td>
+					<td>44</td>
+				</tr>
+				<tr>			
+					<td>Nerd Alert</td>
+					<td>nerdalert@gmail.com</td>
+					<td>29</td>
+				</tr>
+			</tbody>
+
+		</table>
+
+		<br>
+		<hr>
+		<br>
+
+		<!-- Formses! Action will 'submit' the form when you are done, send it somewhere. Method (POST, GET) will be the WAY we send the form. But this stuff is more advanced, server-side stuff, not for now. After you've made firstname and lastname, when you reload, notice that these two fields are INLINE, but putting a "div" in there will help that. -->
+		<form action="process.php" method="POST">
+			<div>
+				<label>First Name</label>
+				<input type="text" name="first_name" placeholder="Enter first name">
+			</div>
+			<br>
+			<div>
+				<label>Last Name</label>
+				<input type="text" name="last_name">
+			</div>
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>
+				<label>Message</label>
+				<textarea name="message"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>	
+					<option value="female">Female</option>	
+					<option value="other">Other</option>	
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Age</label>
+				<input type="number" name="age" value="30">
+			</div>
+			<br>
+			<div>
+				<label>Birthday</label>
+				<input type="date" name="birthday">
+			</div>
+			<br>
+			<div>
+				<input type="submit" name="submit" value="Submit">
+			</div>
+		</form>
+
+		<!-- Here's a button outside the form, it's a tag. -->
+		<br>
+		<div>
+			<button>Click me</button>
+		</div>
+
+		<!-- Now images -->
+
+		<br>
+		<div>
+		<a href="images/Me.jpg">
+			<img src="images/Me.jpg" alt="Cannot find image" width="200">
+		</a>
+		</div>
+		<br>
+		<div>
+		<!-- Quotations -->
+		<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+
+		<p>The <abbr title="World Wide Web">www</abbr> is awesome</p>
+
+		<p><cite>HTML crash course</cite> by Brad Traversy</p>
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
